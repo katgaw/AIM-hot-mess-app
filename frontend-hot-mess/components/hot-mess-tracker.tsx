@@ -35,6 +35,7 @@ export default function HotMessTracker() {
     { id: "charger", label: "Lost charger", value: 0, emoji: "🔌" },
     { id: "text", label: "Sent risky text", value: 0, emoji: "📱" },
     { id: "procrastination", label: "Procrastination", value: 0, emoji: "🛋️" },
+    { id: "coffees", label: "Number of coffees", value: 0, emoji: "☕️" },
   ])
 
   const [savedScores, setSavedScores] = useState<Array<{ date: string; score: number }>>([])
